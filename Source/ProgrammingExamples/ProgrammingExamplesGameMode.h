@@ -1,4 +1,10 @@
-// Fill out your copyright notice in the Description page of Project Settings.
+//
+//  ProgrammingExamplesGameMode.h
+//  ProgrammingExamples
+//
+//  Created by Semih Onay on 20.01.2016.
+//  Copyright © 2016 Semih Onay. All rights reserved.
+//
 
 #pragma once
 
@@ -12,8 +18,6 @@ UCLASS()
 class PROGRAMMINGEXAMPLES_API AProgrammingExamplesGameMode : public AGameMode
 {
 	GENERATED_BODY()
-	
-	
-	
-	
+    
+    
 };

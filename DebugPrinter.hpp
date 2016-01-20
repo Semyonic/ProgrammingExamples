@@ -1,12 +1,14 @@
 //
-//  ProgrammingExamples.h
+//  DebugPrinter.hpp
 //  ProgrammingExamples
 //
 //  Created by Semih Onay on 20.01.2016.
 //  Copyright © 2016 Semih Onay. All rights reserved.
 //
 
-#pragma once
+#ifndef DebugPrinter_hpp
+#define DebugPrinter_hpp
 
-#include "Engine.h"
+#include <stdio.h>
 
+#endif /* DebugPrinter_hpp */
