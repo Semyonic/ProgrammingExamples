@@ -7,8 +7,8 @@
     <Property Name="Precompile" Value="False" />
   </Properties>
   <BuildProducts>
-    <BuildProduct Path="$(ProjectDir)/Binaries/Mac/UE4Editor-ProgrammingExamples.dylib" Type="DynamicLibrary" />
-    <BuildProduct Path="$(ProjectDir)/Binaries/Mac/UE4Editor-ProgrammingExamples.dsym" Type="SymbolFile" />
+    <BuildProduct Path="$(ProjectDir)/Binaries/Mac/UE4Editor-ProgrammingExamples-5489.dylib" Type="DynamicLibrary" />
+    <BuildProduct Path="$(ProjectDir)/Binaries/Mac/UE4Editor-ProgrammingExamples-5489.dsym" Type="SymbolFile" />
   </BuildProducts>
   <RuntimeDependencies />
   <AdditionalProperties />
