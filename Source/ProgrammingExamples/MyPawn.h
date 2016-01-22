@@ -29,6 +29,18 @@ public:
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* InputComponent) override;
 
-	
+    // Added our component in the scene
+	UPROPERTY(EditAnywhere)
+    UsceneComponent*OurVisibleComponent;
+    
+    // Input functions
+    void Move_XAxis(float AxisValue);
+    void Move_YAxis(float AxisValue);
+    void StartGrowing();
+    void StopGrowing();
+    
+    // Input variables
+    FVector CurrentVelocity;
+    bool bGrowing;
 	
 };
